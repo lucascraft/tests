@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment id="13777" creator="http://www.pachube.com">
+    <title>ZAEnergy </title>
+    <feed>http://api.pachube.com/v2/feeds/13777.xml</feed>
+    <status>frozen</status>
+    <description>Electricity consumption for:
+8 Kloof Road
+Gordons Bay
+7140 South Africa</description>
+    <email>zaonline@yahoo.com</email>
+    <private>false</private>
+    <location domain="physical" exposure="indoor" disposition="fixed">
+      <name>Gordons Bay</name>
+      <lat>-34.1642328416883</lat>
+      <lon>18.8650703430176</lon>
+      <ele>60</ele>
+    </location>
+    <data id="0">
+      <tag>Total</tag>
+      <unit type="derivedUnits" symbol="kWhr">kWhr</unit>
+    </data>
+    <data id="1">
+      <tag>Geyser</tag>
+      <unit type="derivedUnits" symbol="kWhr">kWhr</unit>
+    </data>
+    <data id="2">
+      <tag>Stove</tag>
+      <unit type="derivedUnits" symbol="kWhr">kWhr</unit>
+    </data>
+    <data id="3">
+      <tag>Pool Pump</tag>
+      <unit type="derivedUnits" symbol="kWhr">kWhr</unit>
+    </data>
+    <data id="4">
+      <tag>Air Con</tag>
+      <unit type="derivedUnits" symbol="kWhr">kWhr</unit>
+    </data>
+    <data id="5">
+      <tag>Heater</tag>
+      <unit type="derivedUnits" symbol="kWhr">kWhr</unit>
+    </data>
+  </environment>
+</eeml>

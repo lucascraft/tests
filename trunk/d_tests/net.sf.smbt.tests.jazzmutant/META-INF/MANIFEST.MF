@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jazzmutant
+Bundle-SymbolicName: net.sf.smbt.tests.jazzmutant;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: net.sf.smbt.tests.jazzmutant.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ net.sf.smbt.quantic;bundle-version="1.0.0",
+ net.sf.smbt.jazzmutant;bundle-version="1.0.0",
+ net.sf.smbt.jazzmutant.edit;bundle-version="1.0.0",
+ net.sf.xqz.tests.engine;bundle-version="1.0.0",
+ org.eclipse.core.resources;bundle-version="3.6.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: net.sf.smbt.tests.jazzmutant

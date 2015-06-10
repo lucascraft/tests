@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment id="5022" creator="http://www.pachube.com">
+    <title>Polar</title>
+    <feed>http://api.pachube.com/v2/feeds/5022.xml</feed>
+    <status>frozen</status>
+    <private>false</private>
+    <location domain="physical" exposure="" disposition="">
+      <lat>39.82879131421</lat>
+      <lon>96.5742015838623</lon>
+    </location>
+    <data id="0">
+      <tag>Wind Speed</tag>
+      <unit type="basicSI" symbol="mph">10</unit>
+    </data>
+    <data id="1">
+      <tag>Wind Speed</tag>
+      <unit type="basicSI" symbol="mph">12</unit>
+    </data>
+    <data id="2">
+      <tag>WS</tag>
+      <unit type="basicSI" symbol="mph">15</unit>
+    </data>
+  </environment>
+</eeml>

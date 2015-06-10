@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Livingcolors
+Bundle-SymbolicName: net.sf.smbt.tests.cc2500.livingcolors;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: net.sf.smbt.tests.cc2500.livingcolors.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.junit;bundle-version="3.8.2",
+ net.sf.smbt.cc2500.livingcolors;bundle-version="1.0.0",
+ net.sf.xqz.tests.engine;bundle-version="1.0.0",
+ net.sf.smbt.comm.script.config;bundle-version="1.0.0",
+ com.google.inject;bundle-version="2.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: net.sf.smbt.tests.cc2500.livingcolors

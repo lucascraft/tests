@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment updated="2010-12-20T17:59:35.130313Z" id="11191" creator="http://www.pachube.com">
+    <title>HomeStatus</title>
+    <feed>http://api.pachube.com/v2/feeds/11191.xml</feed>
+    <status>live</status>
+    <description>Whether the water, hot water heater, video system, etc is on</description>
+    <private>false</private>
+    <tag>Keys:waterheater</tag>
+    <location domain="physical" exposure="indoor" disposition="fixed">
+      <name>Keys</name>
+      <lat>24.7075390279281</lat>
+      <lon>-81.1127471923828</lon>
+      <ele>11</ele>
+    </location>
+    <data id="0">
+      <tag>Water:ON</tag>
+      <current_value at="2010-12-20T17:59:35.130313Z">1</current_value>
+      <max_value>1.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="">Bool</unit>
+    </data>
+    <data id="1">
+      <tag>Heater:ON</tag>
+      <current_value at="2010-12-20T17:59:35.130313Z">0</current_value>
+      <max_value>1.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="conversionBasedUnits" symbol="">Bool</unit>
+    </data>
+    <data id="2">
+      <current_value at="2010-12-20T17:59:35.130313Z">8120</current_value>
+      <max_value>10240.0</max_value>
+      <min_value>-1024.0</min_value>
+    </data>
+    <data id="3">
+      <current_value at="2010-12-20T17:59:35.130313Z">-812</current_value>
+      <max_value>1.0</max_value>
+      <min_value>-1024.0</min_value>
+    </data>
+    <data id="4">
+      <current_value at="2010-12-20T17:59:35.130313Z">684</current_value>
+      <max_value>1023.0</max_value>
+      <min_value>41.0</min_value>
+    </data>
+    <data id="5">
+      <current_value at="2010-12-20T17:59:35.130313Z">535</current_value>
+      <max_value>1023.0</max_value>
+      <min_value>26.0</min_value>
+    </data>
+    <data id="6">
+      <tag>API:Success</tag>
+      <current_value at="2010-12-20T17:59:35.130313Z">4912</current_value>
+      <max_value>8242.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="">Int</unit>
+    </data>
+    <data id="7">
+      <tag>API:Failures</tag>
+      <current_value at="2010-12-20T17:59:35.130313Z">0</current_value>
+      <max_value>25971.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="">Int</unit>
+    </data>
+  </environment>
+</eeml>

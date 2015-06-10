@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Itunes
+Bundle-SymbolicName: net.sf.smbt.tests.itunes;singleton:=true
+Bundle-Version: 0.5.0.qualifier
+Bundle-Activator: net.sf.smbt.tests.itunes.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ net.sf.smbt.quantic;bundle-version="0.5.0",
+ net.sf.smbt.itunes;bundle-version="0.5.0",
+ net.sf.smbt.comm.zeroconf;bundle-version="0.5.0",
+ net.sf.smbt.comm.http;bundle-version="0.5.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: net.sf.smbt.tests.itunes,
+ net.sf.smbt.tests.itunes.tests

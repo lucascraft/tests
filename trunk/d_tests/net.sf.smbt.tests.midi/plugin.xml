@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="midiTestInOutApplication"
+         name="UDP Test For Midi I/O on ports In:5004, Out:5006"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="net.sf.smbt.tests.midi.testcases.MidiMessageBotApplication">
+         </run>
+      </application>
+   </extension>
+
+</plugin>

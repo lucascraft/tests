@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pachube
+Bundle-SymbolicName: net.sf.smbt.tests.pachube;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: net.sf.smbt.tests.pachube.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ net.sf.smbt.pachube;bundle-version="1.0.0",
+ net.sf.smbt.quantic;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

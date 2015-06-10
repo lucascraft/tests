@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment updated="2010-12-20T17:56:53.277463Z" id="12777" creator="http://www.pachube.com">
+    <title>MoteCloud.PachubeAPP337</title>
+    <feed>http://api.pachube.com/v2/feeds/12777.xml</feed>
+    <status>live</status>
+    <description>MatoCloudHTTPApp publishing temperature in Pachube.</description>
+    <website>http://motecloud.sourceforge.net</website>
+    <email>jdianes@lcc.uma.es</email>
+    <private>false</private>
+    <tag>MoteCloud</tag>
+    <tag>temperature</tag>
+    <location domain="physical" exposure="indoor" disposition="fixed">
+      <name>Málaga</name>
+      <lat>36.7146689971983</lat>
+      <lon>-4.47855949401855</lon>
+      <ele>100</ele>
+    </location>
+    <data id="1">
+      <tag>humidity</tag>
+      <current_value at="2010-12-20T17:56:52.731827Z">45.996640625</current_value>
+      <max_value>57.9644140625</max_value>
+      <min_value>31.5093359375</min_value>
+    </data>
+    <data id="2">
+      <tag>light</tag>
+      <current_value at="2010-12-20T17:56:52.226355Z">76.84210526315789</current_value>
+      <max_value>89.7894736842105</max_value>
+      <min_value>0.0</min_value>
+    </data>
+    <data id="0">
+      <tag>temperature</tag>
+      <current_value at="2010-12-20T17:56:53.277463Z">23.2421875</current_value>
+      <max_value>28.125</max_value>
+      <min_value>18.84765625</min_value>
+      <unit type="basicSI" symbol="ºC">centigrades</unit>
+    </data>
+  </environment>
+</eeml>

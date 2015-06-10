@@ -1,0 +1,12 @@
+import "o.orchestror";
+
+listener listener1 : "net.sf.smbt.comm.script.config.cmdHandler";
+interpreter interpreter1 : "net.sf.smbt.i2c.thingm.cmdInterpreter";
+decoder decoder1 : "net.sf.smbt.i2c.wii.nunchuk.frameInterpreter";
+
+port usb0 : "/dev/ttyUSB0" as USB at 19200;
+
+scope orchestror1 {
+	bind engine1 => interpreter1 <= decoder1 to usb0 with listener1;
+}
+
