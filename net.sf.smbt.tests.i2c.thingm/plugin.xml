@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <extension
+         id="blinkmConccurentApplication"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="net.sf.smbt.tests.i2c.thingm.testcases.BlinkMConccurentCommandsOnUSBTestCase">
+         </run>
+      </application>
+   </extension>
+    <extension
+          id="blinkMOverUSBPlusNunchukApplication"
+          point="org.eclipse.core.runtime.applications">
+       <application
+             cardinality="singleton-global"
+             thread="main"
+             visible="true">
+          <run
+                class="net.sf.smbt.tests.i2c.thingm.testcases.BlinkMConccurentCommandsOnUSBTestCase">
+          </run>
+       </application>
+    </extension>
+    <extension
+          id="setBlinkMAddrApplication"
+          point="org.eclipse.core.runtime.applications">
+       <application
+             cardinality="singleton-global"
+             thread="main"
+             visible="true">
+          <run
+                class="net.sf.smbt.tests.i2c.thingm.testcases.BlinkMSetAddrBroadcasApplication">
+          </run>
+       </application>
+    </extension>
+    <extension
+          id="blinkMGUI"
+          point="org.eclipse.core.runtime.applications">
+       <application
+             cardinality="singleton-global"
+             thread="main"
+             visible="true">
+          <run
+                class="net.sf.smbt.tests.i2c.thingm.testcases.BlinkMGuiOnUSBTestCase">
+          </run>
+       </application>
+    </extension>
+ 
+</plugin>

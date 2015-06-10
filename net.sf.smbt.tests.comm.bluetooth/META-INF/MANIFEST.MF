@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Bluetooth
+Bundle-SymbolicName: net.sf.smbt.tests.comm.bluetooth;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: net.sf.smbt.tests.comm.bluetooth.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.sf.smbt.comm.bluetooth;bundle-version="1.0.0",
+ org.junit;bundle-version="3.8.2",
+ net.sf.smbt.comm.topology;bundle-version="1.0.0",
+ net.sf.xqz.engine;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

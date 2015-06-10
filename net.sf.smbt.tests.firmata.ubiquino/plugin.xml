@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="ubiquinoFirmataSimpleApplication"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="net.sf.smbt.tests.firmata.ubiquino.testscases.UbiquinoFirmataApplication">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="ubiquinoBlinkMFirmataSimpleApplication"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="net.sf.smbt.tests.firmata.ubiquino.testscases.UbiquinoBlinkMFirmataApplication">
+         </run>
+      </application>
+   </extension>
+
+</plugin>

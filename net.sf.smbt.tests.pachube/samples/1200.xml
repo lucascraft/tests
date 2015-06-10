@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment updated="2010-12-20T17:22:32.180088Z" id="1200" creator="http://www.pachube.com">
+    <title>Elizabeth City State University</title>
+    <feed>http://api.pachube.com/v2/feeds/1200.xml</feed>
+    <status>live</status>
+    <website>http://www.nrel.gov/midc/ecsu/</website>
+    <private>false</private>
+    <location domain="physical" exposure="outdoor" disposition="fixed">
+      <lat>36.273410536472</lat>
+      <lon>-76.2104415893555</lon>
+      <ele>26</ele>
+    </location>
+    <data id="0">
+      <tag>GH</tag>
+      <tag>Global PSP</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">505.03</current_value>
+      <max_value>1230.7</max_value>
+      <min_value>-8.46</min_value>
+      <unit type="basicSI" symbol="W/m2">W/m2</unit>
+    </data>
+    <data id="1">
+      <tag>Direct NIP</tag>
+      <tag>DN</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">-99999.00</current_value>
+      <max_value>1471.4</max_value>
+      <min_value>-99999.0</min_value>
+      <unit type="basicSI" symbol="W/m2">W/m2</unit>
+    </data>
+    <data id="10">
+      <tag>WD</tag>
+      <tag>Wind Direction</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">310.70</current_value>
+      <max_value>360.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="o from N">o from N</unit>
+    </data>
+    <data id="11">
+      <tag>PRESS</tag>
+      <tag>Station Pressure</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">1014.30</current_value>
+      <max_value>1031.9</max_value>
+      <min_value>986.21</min_value>
+      <unit type="basicSI" symbol="mBar">mBar</unit>
+    </data>
+    <data id="12">
+      <tag>Broadband AOD</tag>
+      <tag>DN</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">-99999.00</current_value>
+      <max_value>0.0</max_value>
+      <min_value>-99999.0</min_value>
+    </data>
+    <data id="13">
+      <tag>ZEN</tag>
+      <tag>Zenith Angle</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">60.34</current_value>
+      <max_value>166.24</max_value>
+      <min_value>13.42</min_value>
+      <unit type="basicSI" symbol="o">o</unit>
+    </data>
+    <data id="14">
+      <tag>Azimuth Angle</tag>
+      <tag>AZM</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">170.10</current_value>
+      <max_value>351.21</max_value>
+      <min_value>3.83</min_value>
+      <unit type="basicSI" symbol="o">o</unit>
+    </data>
+    <data id="15">
+      <tag>Airmass</tag>
+      <tag>AMASS</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">2.01</current_value>
+      <max_value>64.85</max_value>
+      <min_value>-1.0</min_value>
+    </data>
+    <data id="16">
+      <tag>CR10 Temp</tag>
+      <tag>TC10</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">4.96</current_value>
+      <max_value>42.69</max_value>
+      <min_value>-9.64</min_value>
+      <unit type="basicSI" symbol="oC">oC</unit>
+    </data>
+    <data id="17">
+      <tag>BC10</tag>
+      <tag>CR10 Battery</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">13.80</current_value>
+      <max_value>14.26</max_value>
+      <min_value>12.32</min_value>
+      <unit type="basicSI" symbol="VDC">VDC</unit>
+    </data>
+    <data id="2">
+      <tag>DHSB</tag>
+      <tag>Diffuse PSP (sdwband corr.)</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">63.36</current_value>
+      <max_value>627.77</max_value>
+      <min_value>-7.73</min_value>
+      <unit type="basicSI" symbol="W/m2">W/m2</unit>
+    </data>
+    <data id="3">
+      <tag>DHSB</tag>
+      <tag>Diffuse PSP (sdwband)</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">58.10</current_value>
+      <max_value>520.83</max_value>
+      <min_value>-7.73</min_value>
+      <unit type="basicSI" symbol="W/m2">W/m2</unit>
+    </data>
+    <data id="4">
+      <tag>Temperature (Roof)</tag>
+      <tag>TH35</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">1.66</current_value>
+      <max_value>36.89</max_value>
+      <min_value>-8.21</min_value>
+      <unit type="basicSI" symbol="oC">oC</unit>
+    </data>
+    <data id="5">
+      <tag>TH35</tag>
+      <tag>Wind Chill Temp (Roof)</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">-2.21</current_value>
+      <max_value>36.89</max_value>
+      <min_value>-12.17</min_value>
+      <unit type="basicSI" symbol="oC">oC</unit>
+    </data>
+    <data id="6">
+      <tag>Dew Point Temp (Roof)</tag>
+      <tag>TH35</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">-2.98</current_value>
+      <max_value>31.73</max_value>
+      <min_value>-12.08</min_value>
+      <unit type="basicSI" symbol="oC">oC</unit>
+    </data>
+    <data id="7">
+      <tag>Relative Humidity (Roof)</tag>
+      <tag>TH35</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">69.22</current_value>
+      <max_value>111.5</max_value>
+      <min_value>32.96</min_value>
+      <unit type="basicSI" symbol="%">%</unit>
+    </data>
+    <data id="8">
+      <tag>Wind Speed</tag>
+      <tag>WS</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">3.98</current_value>
+      <max_value>9.06</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="m/s">m/s</unit>
+    </data>
+    <data id="9">
+      <tag>Pk Wind Speed</tag>
+      <tag>WS</tag>
+      <current_value at="2010-12-20T17:22:32.180088Z">8.57</current_value>
+      <max_value>15.81</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="m/s">m/s</unit>
+    </data>
+  </environment>
+</eeml>

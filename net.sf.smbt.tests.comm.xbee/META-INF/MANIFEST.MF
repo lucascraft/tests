@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Xbee
+Bundle-SymbolicName: net.sf.smbt.tests.comm.xbee;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: net.sf.smbt.tests.comm.xbee.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ org.junit;bundle-version="3.8.2",
+ net.sf.smbt.at;bundle-version="0.5.0",
+ net.sf.smbt.comm.xbee;bundle-version="0.5.0",
+ net.sf.smbt.comm.script.config;bundle-version="0.5.0",
+ com.google.inject;bundle-version="2.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: net.sf.smbt.tests.comm.xbee,
+ net.sf.smbt.tests.comm.xbee.cases,
+ net.sf.smbt.tests.comm.xbee.suites

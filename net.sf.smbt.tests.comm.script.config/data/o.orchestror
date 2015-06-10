@@ -1,0 +1,9 @@
+orchestror orchestror1 {
+	engine engine1;
+	
+	client client1 { engine1 };
+	
+	timeline timeline1 : engine1 ;
+	
+	application application1 { client1 };
+}

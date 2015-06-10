@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment updated="2010-12-20T17:59:12.244796Z" id="6880" creator="http://www.pachube.com">
+    <title>WaterFurnace GeoMonitor Site-1</title>
+    <feed>http://api.pachube.com/v2/feeds/6880.xml</feed>
+    <status>live</status>
+    <description>5 10k Thermistors monitoring unit with geo-panels.</description>
+    <email>jeremy_jackson@waterfurnace.com</email>
+    <private>false</private>
+    <location domain="physical" exposure="indoor" disposition="fixed">
+      <name>WaterFurnace Test Site</name>
+      <lat>32.5662735269726</lat>
+      <lon>-93.7184858322144</lon>
+      <ele>50</ele>
+    </location>
+    <data id="0">
+      <tag>SourceIn</tag>
+      <current_value at="2010-12-20T17:59:12.244796Z">63.7003</current_value>
+      <max_value>120.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="derivedSI" symbol="F">Fahrenheit</unit>
+    </data>
+    <data id="1">
+      <tag>SourceOut</tag>
+      <current_value at="2010-12-20T17:59:12.244796Z">65.708</current_value>
+      <max_value>120.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="derivedSI" symbol="F">Fahrenheit</unit>
+    </data>
+    <data id="2">
+      <tag>SupplyAir</tag>
+      <current_value at="2010-12-20T17:59:12.244796Z">66.0612</current_value>
+      <max_value>120.0</max_value>
+      <min_value>40.0</min_value>
+      <unit type="derivedSI" symbol="F">Fahrenheit</unit>
+    </data>
+    <data id="3">
+      <tag>ReturnAir</tag>
+      <current_value at="2010-12-20T17:59:12.244796Z">67.6556</current_value>
+      <max_value>120.0</max_value>
+      <min_value>40.0</min_value>
+      <unit type="derivedSI" symbol="F">Fahrenheit</unit>
+    </data>
+    <data id="4">
+      <tag>Blank</tag>
+      <current_value at="2010-12-20T17:59:12.244796Z">0.0</current_value>
+      <max_value>120.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="derivedSI" symbol="F">Fahrenheit</unit>
+    </data>
+    <data id="5">
+      <tag>Amps</tag>
+      <current_value at="2010-12-20T17:59:12.244796Z">0</current_value>
+      <max_value>25.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="derivedSI" symbol="A">Amps</unit>
+    </data>
+  </environment>
+</eeml>

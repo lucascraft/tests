@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment updated="2010-12-20T17:35:21.596005Z" id="13135" creator="http://www.pachube.com">
+    <title>Wind</title>
+    <feed>http://api.pachube.com/v2/feeds/13135.xml</feed>
+    <status>live</status>
+    <website>http://web.me.com/loics/LCJ/</website>
+    <private>false</private>
+    <tag>Wind</tag>
+    <location domain="physical" exposure="outdoor" disposition="fixed">
+      <name>Vertou</name>
+      <lat>47.1850460016405</lat>
+      <lon>-1.46736145019531</lon>
+    </location>
+    <data id="0">
+      <tag>temperature</tag>
+      <current_value at="2010-12-20T17:35:28.816410Z">8.0</current_value>
+      <max_value>11.0</max_value>
+      <min_value>-6.0</min_value>
+      <unit type="basicSI" symbol="°">celcius</unit>
+    </data>
+    <data id="1">
+      <tag>Direction</tag>
+      <current_value at="2010-12-20T17:35:28.816410Z">222.0</current_value>
+      <max_value>359.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="°">degrees</unit>
+    </data>
+    <data id="2">
+      <tag>Speed</tag>
+      <current_value at="2010-12-20T17:35:28.816410Z">4.0</current_value>
+      <max_value>39.0</max_value>
+      <min_value>0.0</min_value>
+      <unit type="basicSI" symbol="kts">noeud</unit>
+    </data>
+  </environment>
+</eeml>
